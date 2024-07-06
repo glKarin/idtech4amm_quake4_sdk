@@ -278,7 +278,11 @@ const float MAX_BOUND_SIZE = 65536.0f;
 
 #elif defined(_HUMANHEAD)
 
+#ifdef _SDK
+    #include "../game/Game.h"
+#else
     #include "../prey/Game.h"
+#endif
 
 #else
 
@@ -326,7 +330,11 @@ const float MAX_BOUND_SIZE = 65536.0f;
 
 #elif defined(_HUMANHEAD)
 
+#ifdef _SDK
+    #include "../game/Game_local.h"
+#else
     #include "../prey/Game_local.h"
+#endif
 
 #else
 
