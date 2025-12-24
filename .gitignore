@@ -1,3 +1,11 @@
+.androidide/
+quake4/.cxx
+quake4/build
+gradle assembleDebug.bat
+gradle assembleRelease.bat
+gradle assembleRelease 32.bat
+gradle assembleRelease 64.bat
+
 # Gradle files
 .gradle/
 build/
@@ -24,7 +32,7 @@ render.experimental.xml
 
 # Keystore files
 *.jks
-*.keystore
+#*.keystore
 
 # Google Services (e.g. APIs or Firebase)
 google-services.json
